@@ -1,6 +1,6 @@
 {
 	"Resources" : {
-		"MyEC2Instane" : {
+		"myec2instance" : {
 			"Type" : "AWS::EC2::Instance",
 			"Properties" : {
 				"ImageId" : "ami-859bbfe2",
