@@ -1,0 +1,11 @@
+Resources:
+        myec2instance:
+                Type: "AWS::EC2::Instance"
+                Properties:
+                        ImageId: "ami-859bbfe2" #Amazon Linux AMI
+                        InstanceType: "t2.micro"
+                        SubnetId: "subnet-f7ea1081"
+                        KeyName: "aws-tokyo-default001"
+                        SecurityGroupIds: [ "sg-f9b58f9e" ]
+                        IamInstanceProfile: "ec2-001"
+
