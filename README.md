@@ -1,7 +1,11 @@
 # my-cfn
 ## command list
 
-### 01 aws ec2 describe-instances --filter "Name=instance-state-name,Values=running"
+### 01
+```
+aws ec2 describe-instances --filter "Name=instance-state-name,Values=running"
+```
+
 ### 02 vim cloudformation-study.json
 ### 03 aws cloudformation create-stack --stack-name create-ec2-001 --template-body file://cloudformation-study.json
 ### 05 aws ec2 describe-instances --filter "Name=instance-state-name,Values=running" | jq '.Reservations[].Instances[].Tags'
