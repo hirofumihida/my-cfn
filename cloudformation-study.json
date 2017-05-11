@@ -5,7 +5,7 @@
 			"Type" : "AWS::EC2::Instance",
 			"Properties" : {
 				"ImageId" : "ami-0099bd67",
-				"InstanceType" : "t2.small",
+				"InstanceType" : "t2.medium",
 				"SubnetId" : "subnet-f7ea1081",
 				"KeyName" : "aws-tokyo-default001",
 				"SecurityGroupIds" : [ "sg-f9b58f9e" ],
